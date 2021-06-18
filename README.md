@@ -26,7 +26,7 @@ print('...End')
  
 **Reply API 簡單範例**
 
-[reply api example.py] (https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/reply%20api%20example.py)
+[reply api example.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/reply%20api%20example.py)
 
 
 <!-- Create Line Bot from Line -->
