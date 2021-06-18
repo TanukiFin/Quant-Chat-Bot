@@ -58,7 +58,12 @@ https://www.youtube.com/watch?v=nvetGjSXeu8
 
 https://dotblogs.com.tw/Mickey/2016/12/04/194101
 
+### 用 pymssql 連接
 
+ ```
+ import pymssql  
+ conn = pymssql.connect(server='伺服器IP，根據上面教學，就是最後自己的IP V4的位置', user='sa', password='yourpassword', database='UserList')
+ ```
 
 <!-- Upload to Heroku -->
 ## Upload to Heroku
