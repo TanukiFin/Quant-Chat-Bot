@@ -25,13 +25,13 @@ def callback():
 
 # 處理訊息
 @handler.add(MessageEvent, message=TextMessage)
-def handle_message(event):                             #根據使用者傳的訊息決定回覆內容(message)
+def handle_message(event):                             # 根據使用者傳的訊息決定回覆內容(message)
     if event.message.text == '你好':
-        message = TextSendMessage(text='hello')        
+        message = TextSendMessage(text='hello')        # 當訊息收到'你好'，則回傳文字訊息'hello'
     elif  event.message.text == '圖片':
-        message = ImageSendMessage(original_content_url='圖片網址', preview_image_url='圖片網址')
+        message = ImageSendMessage(original_content_url='圖片網址', preview_image_url='圖片網址')    # 當訊息收到'圖片'，則回傳圖片訊息
         
-    line_bot_api.reply_message(event.reply_token, message)   #執行回覆的動作
+    line_bot_api.reply_message(event.reply_token, message)   # 執行回覆的動作
 
 import os
 if __name__ == "__main__":
