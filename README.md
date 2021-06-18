@@ -12,6 +12,8 @@
   </ol>
 </details>
 
+Push API 簡單範例
+
  ```
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
@@ -20,9 +22,10 @@ line_bot_api = LineBotApi(' Line Bot 的 Channel access token ')
 user_id = '使用者的 ID '
 line_bot_api.push_message( user_id, TextSendMessage(text='Hello World!') )
 print('...End')
-
  ```
-
+ 
+RPush API 簡單範例
+  直接看 reply api example.py 檔案
 
 
 <!-- Create Line Bot from Line -->
