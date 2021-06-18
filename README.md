@@ -38,6 +38,8 @@ print('...End')
 
 Line developers(官網):https://developers.line.biz/zh-hant/  
 
+LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot + Heroku):https://ithelp.ithome.com.tw/articles/10216620 
+
 <details close="close">
   <summary>主要會用到的功能(截圖)</summary>
   <ol>
@@ -137,13 +139,15 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 <!-- Upload to Heroku -->
 ## Upload to Heroku
 
+一樣看這篇從 LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot + Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能弄好Git、Heroku帳號。
+
+接著下一篇 LINE BOT到資料視覺化：賴田捕手系列 第 11 篇 (上傳程式碼到 Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能部署好Line Bot，並且有回覆。
+
 [Procfile](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/Procfile)　告訴 Heroku 我們的應用程式是哪種類型的應用程式
 
 [requirements.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/requirements.txt)　告訴 Heroku 需要安裝那些套件
 
 [runtime.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/runtime.txt)　告訴 Heroku 我們要用哪種版本的 Python (非必要)
-
-參考 : https://ithelp.ithome.com.tw/articles/10217350
 
 
 <!-- Files description -->
