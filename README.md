@@ -82,6 +82,51 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
  import pymssql  
  conn = pymssql.connect(server='伺服器IP，根據上面教學，就是自己的IP V4', user='sa', password='yourpassword', database='UserList')
  ```
+ 
+### 資料表預覽
+<details open="open">
+  <summary>主要會用到的功能(截圖)</summary>
+  <ol>
+    <li>UserList</a></li>
+    
+```
+     	ID	Name	0	1	2
+0	u3f83uhd	Emery	0	1	0
+1	bsbw4gwe	Sandy	1	0	1
+2	svadvvw	Kevin	1	0	1
+3	g43egsde	Ken	1	0	1
+4	fsavsv	Jack	1	0	1
+```
+
+   <li>StrategyList</a></li>
+
+```
+     	StrategyName	Description	Parameter
+0	BBAND	今日股價由下而上 穿過下緣	BBANDS(df,timeperiod=20,nbdevup=1.0,nbdevdn=1....
+1	RSI	RSI小於30，處於超賣區	RSI(df,timeperiod=14) ...
+2	MACD	快線向上突破慢線	MACD(df,fastperiod=12,slowperiod=26,signalperi...
+```
+     
+   <li>TodaySignal</a></li>
+    
+ ```
+	StockSymbol	StockName IndustryType	0	1	2
+0	1101	台泥	  水泥工業	0	0	0
+1	1102	亞泥	  水泥工業	0	0	0
+2	1103	嘉泥	  水泥工業	0	0	0
+3	1104	環泥	  水泥工業	0	0	0
+4	1108	幸福	  水泥工業	0	0	0
+...	...	...	...	...	...	...
+948	9944	新麗	  其他業	        0       0       0
+949	9945	潤泰新	  其他業	        0       0       0
+950	9946	三發地產	  建材營造業	0       0       0
+951	9955	佳龍	  其他業	        0       0       0
+952	9958	世紀鋼	  鋼鐵工業       0       0       0
+ ```
+ 
+   </ol>
+</details>
+ 
 
 <!-- Upload to Heroku -->
 ## Upload to Heroku
