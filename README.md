@@ -170,7 +170,7 @@ LINE BOT到資料視覺化：賴田捕手系列 第 11 篇 (上傳程式碼到 H
 
 [runtime.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/runtime.txt)　告訴 Heroku 我們要用哪種版本的 Python (非必要)
 
-上傳SOP
+### 日後更新上傳SOP
 1. 從要上傳的資料夾打開CMD
 
 ```
