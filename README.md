@@ -43,11 +43,11 @@ print('...End')
 <!-- Upload to Heroku -->
 ## Upload to Heroku
 
-Procfile　:　　　　　告訴 Heroku 我們的應用程式是哪種類型的應用程式
+[Procfile]()　　　　　 |　告訴 Heroku 我們的應用程式是哪種類型的應用程式
 
-requirements.txt　:　告訴 Heroku 需要安裝那些套件
+[requirements.txt]()  |　告訴 Heroku 需要安裝那些套件
 
-runtime.txt　:　　　　告訴 Heroku 我們要用哪種版本的 Python (非必要)
+[runtime.txt]()       |　告訴 Heroku 我們要用哪種版本的 Python (非必要)
 
 參考 : https://ithelp.ithome.com.tw/articles/10217350
 
