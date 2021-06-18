@@ -47,10 +47,18 @@ MSSQL = SQL Server
 
 ### Create Instance(執行個體)
 
-參考 : 
+
+
+
 https://www.youtube.com/watch?v=uMY2rgoPHag
 
 https://www.youtube.com/watch?v=nvetGjSXeu8
+
+### 設定可連結的伺服器
+
+https://dotblogs.com.tw/Mickey/2016/12/04/194101
+
+
 
 <!-- Upload to Heroku -->
 ## Upload to Heroku
