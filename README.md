@@ -43,6 +43,9 @@ https://developers.line.biz/en/
 
 <!-- Create Database by MSSQL -->
 ## Create Database by MSSQL
+MSSQL = SQL Server
+
+### Create Instance(執行個體)
 
 參考 : 
 https://www.youtube.com/watch?v=uMY2rgoPHag
