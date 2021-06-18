@@ -26,16 +26,19 @@ import os
 import pymssql
 
 def save_user(user_id):
+    profile = line_bot_api.get_profile(event.source.user_id)
+    name = profile.display_name
+    
     conn = pymssql.connect(host='192.168.137.1',user='sa',password='linebot',database='QuantLineBot',charset='utf8')
     cursor = conn.cursor()
-    #df_user = pd.read_sql('select * from UserList', conn)
+    df_user = pd.read_sql('select * from UserList', conn)
     
-    #sql = """
-    #      INSERT INTO UserList (ID,Name,[0],[1],[2]) 
-    #      VALUES(?,?,?,?,?)
-    #    """
-    #cursor.execute(sql, user_id, 'Sandy', '1', '1', '0').rowcount
-    #conn.commit()
+    sql = """
+          INSERT INTO UserList (ID,Name,[0],[1],[2]) 
+          VALUES(?,?,?,?,?)
+        """
+    cursor.execute(sql, user_id, name, '0', '0', '0').rowcount
+    conn.commit()
 
     
 app = Flask(__name__)
@@ -80,18 +83,16 @@ def handle_message(event):
     
     try:
         #關鍵字判斷
-        if event.message.text == "A":         #使用者傳的訊息=event.message.text
-            a = str( save_user(user_id) ) 
-            text_msg = a
+        if event.message.text == "嗨":         # 使用者傳的訊息=event.message.text
+            text_msg =  event.message.text     # 重複使用者傳的訊息
             
         elif event.message.text == "說明": 
-            text_msg = "BBAND布林通道策略:今日股價由下而上 穿過下緣 \n RSI策略:RSI小於30，處於超賣區 \n MACD策略:快線向上突破慢線"  
-        elif event.message.text == "E": 
-            text_msg = 'EEEEE'
+            text_msg = "這是一個傳送交易訊號機器人"  
+            
         elif event.message.text == "ID": 
             text_msg = user_id
-            #save_user(user_id)
-            #os.system("python sql.py")
+            # save_user(user_id)               #儲存使用者ID到資料庫，這裡因為資料庫IP問題，無法使用
+            
     except Exception as e:
         text_msg = str(e)
         
