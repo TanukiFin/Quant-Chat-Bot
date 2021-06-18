@@ -24,8 +24,9 @@ line_bot_api.push_message( user_id, TextSendMessage(text='Hello World!') )
 print('...End')
  ```
  
-**Reply Push API 簡單範例**
-  直接看 reply api example.py 檔案
+**Reply API 簡單範例**
+
+reply api example.py
 
 
 <!-- Create Line Bot from Line -->
