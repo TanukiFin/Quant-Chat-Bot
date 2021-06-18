@@ -1,5 +1,7 @@
 # Quant-Chat-Bot
 
+
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -36,6 +38,13 @@ print('...End')
 
 Line developers(官網):https://developers.line.biz/zh-hant/  
 
+<img src="https://i.imgur.com/VkxMjQ9.png" width="100%" height="100%">
+
+<img src="https://i.imgur.com/CUjeAl6.png" width="100%" height="100%">
+
+
+
+
 <!-- Strategy -->
 ## Strategy
 
@@ -47,9 +56,7 @@ MSSQL = SQL Server
 
 ### Create Instance(執行個體)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-[product-screenshot]: images/screenshot.png
 
 https://www.youtube.com/watch?v=uMY2rgoPHag
 
