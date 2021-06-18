@@ -8,8 +8,8 @@
     <li><a href="#Create-Line-Bot-from-Line">Create Line Bot from Line</a></li>
     <li><a href="#Strategy">Strategy</a></li>
     <li><a href="#Create-Database-by-MSSQL">Create Database by MSSQL</a></li>
-    <li><a href="#Upload-to-Heroku">Upload to Heroku</a></li>
     <li><a href="#Files-description">Files description</a></li>
+    <li><a href="#Upload-to-Heroku">Upload to Heroku</a></li>
     <li><a href="#...">...</a></li>
     <li><a href="#...">...</a></li>
     <li><a href="#...">...</a></li>
@@ -38,7 +38,7 @@ print('...End')
 
 Line developers(官網):https://developers.line.biz/zh-hant/  
 
-LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot + Heroku):https://ithelp.ithome.com.tw/articles/10216620 
+LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot):https://ithelp.ithome.com.tw/articles/10216620 
 
 <details close="close">
   <summary>主要會用到的功能(截圖)</summary>
@@ -135,21 +135,6 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 </details>
  
 
-
-<!-- Upload to Heroku -->
-## Upload to Heroku
-
-LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot + Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能弄好Git、Heroku帳號。
-
-LINE BOT到資料視覺化：賴田捕手系列 第 11 篇 (上傳程式碼到 Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能部署好Line Bot，並且有回覆。
-
-[Procfile](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/Procfile)　告訴 Heroku 我們的應用程式是哪種類型的應用程式
-
-[requirements.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/requirements.txt)　告訴 Heroku 需要安裝那些套件
-
-[runtime.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/runtime.txt)　告訴 Heroku 我們要用哪種版本的 Python (非必要)
-
-
 <!-- Files description -->
 ## Files description
 
@@ -168,3 +153,39 @@ LINE BOT到資料視覺化：賴田捕手系列 第 11 篇 (上傳程式碼到 H
 
 3. [push msg.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/push%20msg.ipynb)
   * 功用：每日主動傳送推薦的股票列表給使用者
+
+
+
+
+<!-- Upload to Heroku -->
+## Upload to Heroku
+
+LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，應該就能弄好Git、Heroku帳號。
+
+LINE BOT到資料視覺化：賴田捕手系列 第 11 篇 (上傳程式碼到 Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能部署好Line Bot，並且有回覆。
+
+[Procfile](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/Procfile)　告訴 Heroku 我們的應用程式是哪種類型的應用程式
+
+[requirements.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/requirements.txt)　告訴 Heroku 需要安裝那些套件
+
+[runtime.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/runtime.txt)　告訴 Heroku 我們要用哪種版本的 Python (非必要)
+
+上傳SOP
+1. 從要上傳的資料夾打開CMD
+
+```
+D:\Users\UploadtoHeroku> 
+```
+
+2.  依序輸入
+```
+heroku login                         # 登入Heroku
+git init
+heroku git:remote -a ABC             # 將 ABC 改成 Heroku上app的名字
+git add .                            # 先準備好清單，請 Git 推，所有檔案都推
+git commit -am "註解自由打"
+git push -f heroku master            # -f 代表不管版本強制上傳
+```
+
+
+
