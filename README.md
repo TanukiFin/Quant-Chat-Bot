@@ -59,7 +59,7 @@ LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot):htt
 
 <!-- Strategy -->
 ## Strategy
-
+策略核心，透過設定好的技術指標與進場條件，判斷所有台股標的是否有進場訊號，並將資料表存到資料庫。
 
 
 <!-- Create Database by MSSQL -->
