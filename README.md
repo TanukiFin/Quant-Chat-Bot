@@ -34,7 +34,7 @@ print('...End')
 <!-- Create Line Bot from Line -->
 ## Create Line Bot from Line
 
-https://developers.line.biz/en/
+Line developers(官網):https://developers.line.biz/zh-hant/  
 
 <!-- Strategy -->
 ## Strategy
