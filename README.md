@@ -62,7 +62,7 @@ Line developers(官網):https://developers.line.biz/zh-hant/
 
 <!-- Create Database by MSSQL -->
 ## Create Database by MSSQL
-MSSQL = SQL Server
+MSSQL = SQL Server = Microsoft SQL Server
 
 ### Create Instance(執行個體)
 
