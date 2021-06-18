@@ -85,7 +85,7 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
  
 ### 資料表預覽
 <details open="open">
-  <summary>主要會用到的功能(截圖)</summary>
+  <summary>程式會用到的資料表形式</summary>
   <ol>
     <li>UserList</a></li>
     
