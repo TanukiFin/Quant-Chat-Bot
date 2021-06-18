@@ -1,21 +1,12 @@
 # Quant-Chat-Bot
 
-▼Table of Contents
-  1. Create Line Bot from Line
-  2. Strategy
-  3. Create Database by MSSQL
-  4. Upload to Heroku
-  5. ...
-  6. ...
- 
- 
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#Create-Line-Bot-from-Line">Create Line Bot from Line</a></li>
     <li><a href="#Strategy">Strategy</a></li>
     <li><a href="#Create-Database-by-MSSQL">Create Database by MSSQL</a></li>
-    <li><a href="#Upload to Heroku">Upload to Heroku</a></li>
+    <li><a href="#Upload-to-Heroku">Upload to Heroku</a></li>
     <li><a href="#...">...</a></li>
     <li><a href="#...">...</a></li>
   </ol>
