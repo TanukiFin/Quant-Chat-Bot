@@ -12,8 +12,16 @@
   </ol>
 </details>
 
-'''
-'''
+ ```
+from linebot import LineBotApi
+from linebot.models import TextSendMessage
+from linebot.models import *
+line_bot_api = LineBotApi(' Line Bot 的 Channel access token ')
+user_id = '使用者的 ID '
+line_bot_api.push_message( user_id, TextSendMessage(text='Hello World!') )
+print('...End')
+
+ ```
 
 
 
