@@ -49,6 +49,7 @@ MSSQL = SQL Server
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+[product-screenshot]: images/screenshot.png
 
 https://www.youtube.com/watch?v=uMY2rgoPHag
 
