@@ -6,13 +6,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#Create-Line-Bot-from-Line">Create Line Bot from Line</a></li>
-    <li><a href="#Strategy">Strategy</a></li>
     <li><a href="#Create-Database-by-MSSQL">Create Database by MSSQL</a></li>
     <li><a href="#Files-description">Files description</a></li>
     <li><a href="#Upload-to-Heroku">Upload to Heroku</a></li>
-    <li><a href="#...">...</a></li>
-    <li><a href="#...">...</a></li>
-    <li><a href="#...">...</a></li>
   </ol>
 </details>
 
@@ -34,7 +30,7 @@ print('...End')
 
 
 <!-- Create Line Bot from Line -->
-## 1. Create Line Bot from Line
+##Create Line Bot from Line
 
 Line developers(官網):https://developers.line.biz/zh-hant/  
 
@@ -53,26 +49,6 @@ LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot):htt
 </details>
 
 
-
-
-
-
-<!-- Strategy -->
-## Strategy
-目前有3個進場買入策略:
-
-1. BBAND : 當今日收盤價由下而上，穿過布林通道下緣，則進場買入。  昨日布林下緣 > 昨日收盤價 且 今日布林下緣 < 今日收盤價         
-參數設定 : BBANDS(df,timeperiod=20,nbdevup=1.0,nbdevdn=1.0,matype=0)，中線MA = 20，上下緣分別為1標準差。                                        
-
-2. RSI : 當 RSI < 30，處於超賣區，則進場買入。
-參數設定 : RSI(df,timeperiod=14)，14日漲幅平均值。                             
-
-3. MACD : 當快線向上突破慢線。  昨天快線 < 昨天慢線 且 今日快線 > 今日慢線。
-參數設定 : MACD(df,fastperiod=12,slowperiod=26,signalperiod=9)，參考說明:https://blog.csdn.net/u011072037/article/details/100069333。
-
-<img src="http://forex.whatta.com.my/wp-content/uploads/2020/06/MACDbasics2ES.gif" width="60%" height="60%">
-
-尚無出場訊號設定。
 
 
 <!-- Create Database by MSSQL -->
@@ -154,6 +130,21 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 1. [Stock stg.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/stock%20stg.ipynb)
 
 策略核心，透過設定好的技術指標與進場條件，判斷所有台股標的是否有進場訊號，並將資料表存到資料庫。
+
+目前有3個進場買入策略:
+
+1. BBAND : 當今日收盤價由下而上，穿過布林通道下緣，則進場買入。  昨日布林下緣 > 昨日收盤價 且 今日布林下緣 < 今日收盤價         
+參數設定 : BBANDS(df,timeperiod=20,nbdevup=1.0,nbdevdn=1.0,matype=0)，中線MA = 20，上下緣分別為1標準差。                                        
+
+2. RSI : 當 RSI < 30，處於超賣區，則進場買入。
+參數設定 : RSI(df,timeperiod=14)，14日漲幅平均值。                             
+
+3. MACD : 當快線向上突破慢線。  昨天快線 < 昨天慢線 且 今日快線 > 今日慢線。
+參數設定 : MACD(df,fastperiod=12,slowperiod=26,signalperiod=9)，參考說明:https://blog.csdn.net/u011072037/article/details/100069333。
+
+<img src="http://forex.whatta.com.my/wp-content/uploads/2020/06/MACDbasics2ES.gif" width="60%" height="60%">
+
+尚無出場訊號設定。
 
 2. [app.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/app.py)
 
