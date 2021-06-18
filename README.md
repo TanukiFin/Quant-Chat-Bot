@@ -12,7 +12,7 @@
   </ol>
 </details>
 
-Push API 簡單範例
+**Push API 簡單範例**
 
  ```
 from linebot import LineBotApi
@@ -24,7 +24,7 @@ line_bot_api.push_message( user_id, TextSendMessage(text='Hello World!') )
 print('...End')
  ```
  
-RPush API 簡單範例
+**Reply Push API 簡單範例**
   直接看 reply api example.py 檔案
 
 
