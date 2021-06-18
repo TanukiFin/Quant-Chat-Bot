@@ -38,9 +38,11 @@ print('...End')
 
 Line developers(官網):https://developers.line.biz/zh-hant/  
 
-<img src="https://i.imgur.com/VkxMjQ9.png" width="100%" height="100%">
+▼主要會用到的功能
 
-<img src="https://i.imgur.com/CUjeAl6.png" width="100%" height="100%">
+<img src="https://i.imgur.com/VkxMjQ9.png" width="50%" height="50%">
+
+<img src="https://i.imgur.com/CUjeAl6.png" width="90%" height="90%">
 
 
 
@@ -76,11 +78,11 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 <!-- Upload to Heroku -->
 ## Upload to Heroku
 
-[Procfile]()　告訴 Heroku 我們的應用程式是哪種類型的應用程式
+[Procfile](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/Procfile)　告訴 Heroku 我們的應用程式是哪種類型的應用程式
 
-[requirements.txt]()　告訴 Heroku 需要安裝那些套件
+[requirements.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/requirements.txt)　告訴 Heroku 需要安裝那些套件
 
-[runtime.txt]()　告訴 Heroku 我們要用哪種版本的 Python (非必要)
+[runtime.txt](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/runtime.txt)　告訴 Heroku 我們要用哪種版本的 Python (非必要)
 
 參考 : https://ithelp.ithome.com.tw/articles/10217350
 
@@ -88,9 +90,9 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 <!-- Files description -->
 ## Files description
 
-1. Stock stg.py
+1. [Stock stg.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/stock%20stg.ipynb)
 
-3. app.py 
+3. [app.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/app.py)
 
   * 功用：部署到Heroku，以連接Line Bot，隨時待命，若使用者主動傳訊息，則會根據程式內容回覆。
   
@@ -101,5 +103,5 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 
 
 
-3. Daily push.py
+3. [push msg.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/push%20msg.ipynb)
   * 功用：每日主動傳送推薦的股票列表給使用者
