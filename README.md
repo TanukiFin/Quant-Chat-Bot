@@ -12,7 +12,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#usage">Create Line Bot from Line</a></li>
+    <li><a href="#Create-Line-Bot-from-Line">Create Line Bot from Line</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
