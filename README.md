@@ -123,10 +123,16 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 951	9955	佳龍	  其他業	        0       0       0
 952	9958	世紀鋼	  鋼鐵工業       0       0       0
  ```
+  說明:UserList與TodaySignal的欄位0、1、2，對應StrategyList的index，也就是BBAND、RSI、MACD策略。
+  
+  UserList每列為一個使用者，若一位使用者在欄位0，數值為1，代表他關注此BBAND策略；數值為0，代表不關注，其他策略同理。
+ 
+  TodaySignal每列為一檔標的，若一檔標的在欄位0，數值為1，代表今日他觸發了BBAND的進場條件，應該買進；數值為0，代表沒觸發，其他策略同理。
  
    </ol>
 </details>
  
+
 
 <!-- Upload to Heroku -->
 ## Upload to Heroku
