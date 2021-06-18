@@ -30,7 +30,7 @@ print('...End')
  
 **Reply API 簡單範例**
 
-[reply api example.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/reply%20api%20example.py)
+[reply api example.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/Example/reply%20api%20example.py)
 
 
 <!-- Create Line Bot from Line -->
@@ -168,7 +168,7 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 
 3. [push msg.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/push%20msg.ipynb)
   * 功用：每日主動傳送推薦的股票列表給使用者
-  * 執行結果 : Line使用者收到訊息
+  * 執行結果 : 
   
 <img src="https://i.imgur.com/fBj1WI7.png" width="30%" height="30%">
 
