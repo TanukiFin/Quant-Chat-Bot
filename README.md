@@ -34,11 +34,19 @@ print('...End')
 <!-- Create Line Bot from Line -->
 ## Create Line Bot from Line
 
+https://developers.line.biz/en/
+
 <!-- Strategy -->
 ## Strategy
 
+
+
 <!-- Create Database by MSSQL -->
 ## Create Database by MSSQL
+
+參考 : 
+https://www.youtube.com/watch?v=uMY2rgoPHag
+https://www.youtube.com/watch?v=nvetGjSXeu8
 
 <!-- Upload to Heroku -->
 ## Upload to Heroku
