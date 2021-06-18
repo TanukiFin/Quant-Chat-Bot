@@ -90,21 +90,21 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
     <li>UserList</a></li>
     
 ```
-     	ID	Name	0	1	2
+     	ID		Name	0	1	2
 0	u3f83uhd	Emery	0	1	0
 1	bsbw4gwe	Sandy	1	0	1
-2	svadvvw	Kevin	1	0	1
+2	svadvvw		Kevin	1	0	1
 3	g43egsde	Ken	1	0	1
-4	fsavsv	Jack	1	0	1
+4	fsavsv		Jack	1	0	1
 ```
 
    <li>StrategyList</a></li>
 
 ```
-     	StrategyName	Description	Parameter
-0	BBAND	今日股價由下而上 穿過下緣	BBANDS(df,timeperiod=20,nbdevup=1.0,nbdevdn=1....
-1	RSI	RSI小於30，處於超賣區	RSI(df,timeperiod=14) ...
-2	MACD	快線向上突破慢線	MACD(df,fastperiod=12,slowperiod=26,signalperi...
+     	StrategyName	Description			Parameter
+0	BBAND		今日股價由下而上 穿過下緣         BBANDS(df,timeperiod=20,nbdevup=1.0,nbdevdn=1....
+1	RSI		RSI小於30，處於超賣區            RSI(df,timeperiod=14) ...
+2	MACD		快線向上突破慢線                 MACD(df,fastperiod=12,slowperiod=26,signalperi...
 ```
      
    <li>TodaySignal</a></li>
