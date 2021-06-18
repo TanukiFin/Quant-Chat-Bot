@@ -38,11 +38,19 @@ print('...End')
 
 Line developers(官網):https://developers.line.biz/zh-hant/  
 
-▼主要會用到的功能
+<details open="open">
+  <summary>主要會用到的功能(截圖)</summary>
+  <ol>
+    <img src="https://i.imgur.com/VkxMjQ9.png" width="50%" height="50%">
+    <li>Channel Secret</a></li>
+    <li>user ID</a></li>
+    <img src="https://i.imgur.com/CUjeAl6.png" width="90%" height="90%">
+    <li>Webhook URL</a></li>
+    <li>Channel access token</a></li>
+  </ol>
+</details>
 
-<img src="https://i.imgur.com/VkxMjQ9.png" width="50%" height="50%">
 
-<img src="https://i.imgur.com/CUjeAl6.png" width="90%" height="90%">
 
 
 
