@@ -139,9 +139,9 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 <!-- Upload to Heroku -->
 ## Upload to Heroku
 
-一樣看這篇從 LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot + Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能弄好Git、Heroku帳號。
+LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot + Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能弄好Git、Heroku帳號。
 
-接著下一篇 LINE BOT到資料視覺化：賴田捕手系列 第 11 篇 (上傳程式碼到 Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能部署好Line Bot，並且有回覆。
+LINE BOT到資料視覺化：賴田捕手系列 第 11 篇 (上傳程式碼到 Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，最後應該就能部署好Line Bot，並且有回覆。
 
 [Procfile](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/UploadtoHeroku/Procfile)　告訴 Heroku 我們的應用程式是哪種類型的應用程式
 
