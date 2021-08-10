@@ -5,17 +5,17 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Line-API-Example">Line API Example</a></li>
-    <li><a href="#Create-Line-Bot-from-Line">Create Line Bot from Line</a></li>
-    <li><a href="#Create-Database-by-MSSQL">Create Database by MSSQL</a></li>
-    <li><a href="#Files-description">Files description</a></li>
-    <li><a href="#Upload-to-Heroku">Upload to Heroku</a></li>
+    <li><a href="#1.Line-API-Example">Line API Example</a></li>
+    <li><a href="#2.Create-Line-Bot-from-Line">Create Line Bot from Line</a></li>
+    <li><a href="#3.Create-Database-by-MSSQL">Create Database by MSSQL</a></li>
+    <li><a href="#4.Files-description">Files description</a></li>
+    <li><a href="#5.Upload-to-Heroku">Upload to Heroku</a></li>
   </ol>
 </details>
 
 
 <!-- Line API Example -->
-## Line API Example
+## 1.Line API Example
 **Push API 簡單範例**
 
  ```
@@ -34,7 +34,7 @@ print('...End')
 
 
 <!-- Create Line Bot from Line -->
-## Create Line Bot from Line
+## 2.Create Line Bot from Line
 
 Line developers(官網):https://developers.line.biz/zh-hant/  
 
@@ -56,7 +56,7 @@ LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建 Line Bot):htt
 
 
 <!-- Create Database by MSSQL -->
-## Create Database by MSSQL
+## 3.Create Database by MSSQL
 MSSQL = SQL Server = Microsoft SQL Server
 
 ### Create Instance(執行個體)
@@ -129,7 +129,7 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
  
 
 <!-- Files description -->
-## Files description
+## 4.Files description
 
 1. [Stock stg.py](https://github.com/TanukiFin/Quant-Chat-Bot/blob/main/stock%20stg.ipynb)
 
@@ -171,7 +171,7 @@ https://dotblogs.com.tw/Mickey/2016/12/04/194101
 
 
 <!-- Upload to Heroku -->
-## Upload to Heroku
+## 5.Upload to Heroku
 
 LINE BOT到資料視覺化：賴田捕手系列 第 10 篇 (創建Heroku):https://ithelp.ithome.com.tw/articles/10216620 ，應該就能弄好Git、Heroku帳號。
 
